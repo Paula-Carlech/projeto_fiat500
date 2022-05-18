@@ -9,5 +9,70 @@
     --cor04: #DE7418;
     --cor05: #D45317;
 
-    --font01: font-family: 'Contrail One', cursive;;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Contrail One', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrao);
+}
+
+body{
+    background-color: var(--cor03);
+}
+
+header{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 10px;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+}
+
+h1, h2{
+    font-family: var(--font-destaque);
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+div#primeiro{
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    background-image: url('images/img_1.jpg');
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.295);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: inline-block;
+}
+
+div#segundo{
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    background-image: url('images/img_2.jpg');
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.295);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: inline-block;
 }
