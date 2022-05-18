@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+:root{
+    --cor01: #D4AE17;
+    --cor02: #DEA318;
+    --cor03: #C7851F;
+    --cor04: #DE7418;
+    --cor05: #D45317;
+
+    --font01: font-family: 'Contrail One', cursive;;
+}
